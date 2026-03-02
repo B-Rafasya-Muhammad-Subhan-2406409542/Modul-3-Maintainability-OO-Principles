@@ -33,10 +33,10 @@ public class ProductRepository {
         return null;
     }
 
-    public Product update(Product product) {
+    public Product update(String productId, Product product) {
         for (int i = 0; i < productData.size(); i++) {
             Product currentProduct = productData.get(i);
-            if (currentProduct.getProductId().equals(product.getProductId())) {
+            if (currentProduct.getProductId().equals(productId)) {
                 currentProduct.setProductName(product.getProductName());
                 currentProduct.setProductQuantity(product.getProductQuantity());
                 return currentProduct;
