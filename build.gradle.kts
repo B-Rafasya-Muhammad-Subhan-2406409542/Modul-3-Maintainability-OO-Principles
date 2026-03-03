@@ -52,7 +52,7 @@ dependencies {
 
 sonar {
     properties {
-        property("sonar.projectKey", "B-Rafasya-Muhammad-Subhan-2406409542_Modul-2-CICD")
+        property("sonar.projectKey", "B-Rafasya-Muhammad-Subhan-2406409542_Modul-3-Maintainability-OO-Principles")
         property("sonar.organization", "b-rafasya-muhammad-subhan-2406409542")
         property("sonar.host.url", "https://sonarcloud.io")
         property("sonar.coverage.jacoco.xmlReportPaths", "build/reports/jacoco/test/jacocoTestReport.xml")
