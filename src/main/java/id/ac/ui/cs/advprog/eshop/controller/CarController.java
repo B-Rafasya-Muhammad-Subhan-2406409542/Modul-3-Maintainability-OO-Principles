@@ -11,7 +11,7 @@ import java.util.List;
 @Controller
 @RequestMapping("/car")
 @RequiredArgsConstructor
-class CarController extends ProductController {
+class CarController {
     private final CarService carservice;
     private static final String REDIRECT_CARLIST = "redirect:listCar";
 
